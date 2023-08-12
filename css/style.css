@@ -79,8 +79,10 @@ h1 {
 }
 
 .secao__divisao-itens {
-    width: 15.6em;
-    height: 25em;
+    /* width: 15.6em;
+    height: 25em; */
+
+    width: 12%;
 }
 
 /* Rodapé */
