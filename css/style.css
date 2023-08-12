@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fira+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#810CA8 ;
+    height: 4.5em;
+    padding: 0 2em;
+}
+
+.container__titulo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#container__titulo-imagem {
+    width: 2em;
+}
+
+h1 {
+    font-family: 'Caprasimo', cursive;
+}
+
+.opcoes-lista {
+    display: flex;
+}
+
+.opcoes-lista__itens {
+    list-style: none;
+}
+.opcoes-lista__links {
+    text-decoration: none;
+    color: black;
+    padding: 1.5em ;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+  }
+.opcoes-lista__links:hover{
+    background: #b1b1b13b;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* main */
+
+.secao__titulo {
+    margin-left: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+  
+.secao__divisao {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 1.5em;
+}
+
+.secao__titulo {
+    display: block;
+    color: aliceblue;
+    padding-top: 3em;
+    align-items: center;
+    font-size: 2em;
+}
+
+.c-filme {
+    padding-top: 1em;
+}
+
+.secao__divisao-itens {
+    width: 15.6em;
+    height: 25em;
+}
+
+/* Rodapé */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 4em;
+    background-color: rgb(42, 42, 42);
+}
+
+.rodape__links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.rodape__links-icones {
+    width: 4em;
+}
